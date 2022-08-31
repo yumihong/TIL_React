@@ -2,23 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const test='이렇게';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>리액트 시작!</h1>
+      <h2>jsx안에서 {test} 사용할수있어</h2>
+    </>
   );
 }
 
