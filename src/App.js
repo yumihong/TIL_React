@@ -1,14 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import MyComponent from "./MyComponent";
 
-function App() {
-  const test='이렇게';
-
+const App = () => {
   return (
-    <>
-      <h1>리액트 시작!</h1>
-      <h2>jsx안에서 {test} 사용할수있어</h2>
-    </>
+    <MyComponent>리액트</MyComponent>
   );
 }
 
