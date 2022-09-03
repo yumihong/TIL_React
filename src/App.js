@@ -1,9 +1,8 @@
 import MyComponent from "./MyComponent";
+import Say from "./Say";
 
 const App = () => {
-  return (
-    <MyComponent>리액트</MyComponent>
-  );
+  return <Say />;
 }
 
 export default App;
